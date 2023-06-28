@@ -4,6 +4,7 @@ import Header from "./component/headerComponent/header";
 import Slider from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { TypeAnimation } from "react-type-animation";
 
 function App() {
   return (
@@ -11,14 +12,28 @@ function App() {
       <Header />
       <section className="container heroSection">
         <div className="row heroWrraper">
-          <div className="col">
+          <div className="col-xl-6 col-lg-6 col-md-12  col-12">
             <div className="heroText">
-              We craft impactful web solutions to fuel your business growth.
+              We craft impactful <span>web solutions</span>
             </div>
+            <TypeAnimation
+              sequence={[
+                "to fuel your",
+                500,
+                "to fuel your business growth.",
+                500,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: "2em", display: "inline-block" }}
+              repeat={Infinity}
+            />
             <button className="exploreBtn">Explore More</button>
           </div>
-          <div className="col">
-            <img src="/hero.png" alt="hero" className="heroImage" />
+          <div className="col-xl-6 col-lg-6 col-md-12  col-12">
+            <div style={{ width: "100%" }}>
+              <img src="/hero.png" alt="hero" className="" />
+            </div>
           </div>
         </div>
       </section>
@@ -35,8 +50,93 @@ function App() {
         </div>
         <div className="eclipseDiv">
           <img src="/Eclipses.png" alt="eclipse" className="eclipseImage" />
+          {/* <div className="row" style={{ height: "430px" }}>
+            <div
+              className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12"
+              style={{ display: "flex", justifyContent: "space-between" }}
+            >
+              <div style={{ display: "flex", alignItems: "flex-end" }}>
+                <div className="circle1">
+                  <div>
+                    <div className="bigCircleText">15+</div>
+                    <div className="bigCircleText2">
+                      Industry <br /> Experience
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style={{ display: "flex", alignItems: "start" }}>
+                <div className="circle2">Fun & Happiness</div>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "start",
+                  marginLeft: "35px",
+                }}
+              >
+                <div className="circle3">
+                  <div>
+                    <div className="midCircleText">$250M</div>
+                    <div className="midCircleText2">Raised by our clients</div>
+                  </div>
+                </div>
+              </div>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <div className="circle4">Creative</div>
+              </div>
+            </div>
+
+            <div
+              className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12"
+              style={{ display: "flex", justifyContent: "space-between" }}
+            >
+              <div style={{ display: "flex", alignItems: "flex-end" }}>
+                <div className="circle5">
+                  <div>
+                    <div className="bigCircleText">30+</div>
+                    <div className="bigCircleText2">
+                      Designers and Developers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "start",
+                  marginLeft: "-250px",
+                }}
+              >
+                <div className="circle6">Skill</div>
+              </div>
+
+              <div style={{ display: "flex", alignItems: "end" }}>
+                <div className="circle9">Experience</div>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "flex-end",
+                }}
+              >
+                <div className="circle7">
+                  <div>
+                    <div className="midCircleText">92%</div>
+                    <div className="midCircleText2">Client Retention Ratio</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
         </div>
-        <div className="rectangularShape"></div>
+        <div className="row">
+          <div className="col"></div>
+          <div className="col-6">
+            <div className="rectangularShape"></div>
+          </div>
+        </div>
+
         <div className="row whoWeSectionRow">
           <div className="col-xl-3 col-12">
             <div className="whoweImageDiv">
@@ -65,7 +165,10 @@ function App() {
             <div className="serviceSectionHeader">Our Service Suite</div>
           </div>
           <div className="row  cardRowWrraper">
-            <div className="col-xl-4 col-12" style={{ marginBottom: "30px" }}>
+            <div
+              className="col-xl-4 col-lg-4 col-md-6 col-12"
+              style={{ marginBottom: "30px" }}
+            >
               <div className="colCardWrraper">
                 <div className="cardIconStyle">
                   <img
@@ -83,7 +186,10 @@ function App() {
                 <div className="knowMoreBtn">Know more</div>
               </div>
             </div>
-            <div className="col-xl-4 col-12" style={{ marginBottom: "30px" }}>
+            <div
+              className="col-xl-4 col-lg-4 col-md-6 col-12"
+              style={{ marginBottom: "30px" }}
+            >
               <div className="colCardWrraper2">
                 <div className="cardIconStyle">
                   <img
@@ -104,7 +210,10 @@ function App() {
                 <div className="knowMoreBtn2">Know more</div>
               </div>
             </div>
-            <div className="col-xl-4 col-12" style={{ marginBottom: "30px" }}>
+            <div
+              className="col-xl-4 col-lg-4 col-md-6 col-12"
+              style={{ marginBottom: "30px" }}
+            >
               <div className="colCardWrraper3">
                 <div className="cardIconStyle">
                   <img
@@ -126,7 +235,10 @@ function App() {
               </div>
             </div>
 
-            <div className="col-xl-4 col-12" style={{ marginBottom: "30px" }}>
+            <div
+              className="col-xl-4 col-lg-4 col-md-6 col-12"
+              style={{ marginBottom: "30px" }}
+            >
               <div className="colCardWrraper4">
                 <div className="cardIconStyle">
                   <img
@@ -144,7 +256,10 @@ function App() {
                 <div className="knowMoreBtn4">Know more</div>
               </div>
             </div>
-            <div className="col-xl-4 col-12" style={{ marginBottom: "30px" }}>
+            <div
+              className="col-xl-4 col-lg-4 col-md-6 col-12"
+              style={{ marginBottom: "30px" }}
+            >
               <div className="colCardWrraper5">
                 <div className="cardIconStyle">
                   <img
@@ -162,7 +277,10 @@ function App() {
                 <div className="knowMoreBtn5">Know more</div>
               </div>
             </div>
-            <div className="col-xl-4 col-12" style={{ marginBottom: "30px" }}>
+            <div
+              className="col-xl-4 col-lg-4 col-md-6 col-12"
+              style={{ marginBottom: "30px" }}
+            >
               <div className="colCardWrraper6">
                 <div className="cardIconStyle">
                   <img
