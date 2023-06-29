@@ -38,7 +38,7 @@ function App() {
         </div>
       </section>
       <section className="container">
-        <div data-aos="fade-up" data-aos-delay="2000">
+        <div data-aos="fade-up" data-aos-delay="1000">
           <div className="sectionHeader">Who We Are</div>
           <div className="SectionTitle">
             We are Just Digital Gurus - Your Digital Growth Catalysts!
@@ -162,7 +162,7 @@ function App() {
         </div>
       </section>
       <section className="serviceSection">
-        <div className="container" data-aos="fade-up" data-aos-delay="2000">
+        <div className="container" data-aos="fade-up" data-aos-delay="1000">
           <div style={{ paddingTop: "100px" }}>
             <div className="serviceSectionHeader">Our Service Suite</div>
           </div>
@@ -309,7 +309,7 @@ function App() {
         </div>
       </section>
       <section className="container">
-        <div data-aos="fade-up" data-aos-delay="2000">
+        <div data-aos="fade-up" data-aos-delay="1000">
           <div style={{ marginTop: "100px" }}>
             <div className="sectionHeader">Our Showcased Projects</div>
           </div>
@@ -358,7 +358,7 @@ function App() {
         </div>
       </section>
       <section className="container voiceOfSatisfactionwrraper">
-        <div data-aos="fade-up" data-aos-delay="2000">
+        <div data-aos="fade-up" data-aos-delay="1000">
           <div className="voiceofSatisfactionSection">
             <div className="voiceofSatisfactionSubSection">
               <div>
@@ -431,7 +431,7 @@ function App() {
         </div>
       </section>
       <section className="serviceSection serviceBottom">
-        <div className="container" data-aos="fade-up" data-aos-delay="2000">
+        <div className="container" data-aos="fade-up" data-aos-delay="1000">
           <div style={{ paddingTop: "100px" }}>
             <div className="serviceSectionHeader">Explore the JDG Blog</div>
           </div>
@@ -484,7 +484,7 @@ function App() {
         <div
           className="row joinTeamRowWrraper"
           data-aos="fade-up"
-          data-aos-delay="2000"
+          data-aos-delay="1000"
         >
           <div className="col-md-8 col">
             <div className="joinTealTitle">
@@ -512,7 +512,7 @@ function App() {
         <div
           className="row faqCollapseWrraper"
           data-aos="fade-up"
-          data-aos-delay="2000"
+          data-aos-delay="1000"
         >
           <div className="col">
             <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -698,7 +698,7 @@ function App() {
         <div
           className="formWrraperSection"
           data-aos="fade-up"
-          data-aos-delay="2000"
+          data-aos-delay="1000"
         >
           <div className="row ">
             <div className="col">
@@ -791,7 +791,7 @@ function App() {
         </div>
       </section>
       <section className="serviceSection lastFooterSection">
-        <div className="container" data-aos="fade-up" data-aos-delay="2000">
+        <div className="container" data-aos="fade-up" data-aos-delay="1000">
           <div className="row">
             <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
               <div>
