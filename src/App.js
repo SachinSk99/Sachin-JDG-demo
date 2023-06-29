@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="appWrraper">
       <Header />
-      <section className="container heroSection">
+      <section className="container heroSection ">
         <div className="row heroWrraper">
           <div className="col-xl-6 col-lg-6 col-md-12  col-12">
             <div className="heroText">
@@ -38,19 +38,20 @@ function App() {
         </div>
       </section>
       <section className="container">
-        <div className="sectionHeader">Who We Are</div>
-        <div className="SectionTitle">
-          We are Just Digital Gurus - Your Digital Growth Catalysts!
-        </div>
-        <div className="sectionText">
-          As a leading IT company, we specialize in providing comprehensive web
-          development services. With a strong commitment to excellence, we are
-          dedicated to empowering digital transformation for businesses across
-          various industries.
-        </div>
-        <div className="eclipseDiv">
-          <img src="/Eclipses.png" alt="eclipse" className="eclipseImage" />
-          {/* <div className="row" style={{ height: "430px" }}>
+        <div data-aos="fade-up" data-aos-delay="2000">
+          <div className="sectionHeader">Who We Are</div>
+          <div className="SectionTitle">
+            We are Just Digital Gurus - Your Digital Growth Catalysts!
+          </div>
+          <div className="sectionText">
+            As a leading IT company, we specialize in providing comprehensive
+            web development services. With a strong commitment to excellence, we
+            are dedicated to empowering digital transformation for businesses
+            across various industries.
+          </div>
+          <div className="eclipseDiv">
+            <img src="/Eclipses.png" alt="eclipse" className="eclipseImage" />
+            {/* <div className="row" style={{ height: "430px" }}>
             <div
               className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12"
               style={{ display: "flex", justifyContent: "space-between" }}
@@ -129,38 +130,39 @@ function App() {
               </div>
             </div>
           </div> */}
-        </div>
-        <div className="row">
-          <div className="col"></div>
-          <div className="col-6">
-            <div className="rectangularShape"></div>
           </div>
-        </div>
-
-        <div className="row whoWeSectionRow">
-          <div className="col-xl-3 col-12">
-            <div className="whoweImageDiv">
-              <img src="/whowe.png" alt="Who We Are" className="whoweImage" />
+          <div className="row">
+            <div className="col"></div>
+            <div className="col-6">
+              <div className="rectangularShape"></div>
             </div>
           </div>
-          <div className="col-xl-9  col-12">
-            <div className="aboutText">
-              From creating visually stunning websites to developing robust
-              applications, we leverage cutting-edge technologies and industry
-              best practices to deliver innovative solutions that drive growth
-              and success.
-              <br></br>
-              <div className="mt-4">
-                Our developers and designers are committed to maintaining the
-                highest web standards so that your site will withstand the test
-                of time.
+
+          <div className="row whoWeSectionRow">
+            <div className="col-xl-3 col-lg-3 col-md-3 col-12">
+              <div className="whoweImageDiv">
+                <img src="/whowe.png" alt="Who We Are" className="whoweImage" />
+              </div>
+            </div>
+            <div className="col-xl-9 col-lg-9 col-md-9  col-12">
+              <div className="aboutText">
+                From creating visually stunning websites to developing robust
+                applications, we leverage cutting-edge technologies and industry
+                best practices to deliver innovative solutions that drive growth
+                and success.
+                <br></br>
+                <div className="mt-4">
+                  Our developers and designers are committed to maintaining the
+                  highest web standards so that your site will withstand the
+                  test of time.
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section className="serviceSection">
-        <div className="container">
+        <div className="container" data-aos="fade-up" data-aos-delay="2000">
           <div style={{ paddingTop: "100px" }}>
             <div className="serviceSectionHeader">Our Service Suite</div>
           </div>
@@ -307,16 +309,17 @@ function App() {
         </div>
       </section>
       <section className="container">
-        <div style={{ marginTop: "100px" }}>
-          <div className="sectionHeader">Our Showcased Projects</div>
-        </div>
-        <div className="sectionText textCenter">
-          We are passionate about our work. Our designers and developers stay
-          ahead of the curve to provide our clients with end results beyond
-          their expectations and bringing their business to another height.
-        </div>
-        <button className="showcaseProjectBtn">View All Projects</button>
-        {/* <div>
+        <div data-aos="fade-up" data-aos-delay="2000">
+          <div style={{ marginTop: "100px" }}>
+            <div className="sectionHeader">Our Showcased Projects</div>
+          </div>
+          <div className="sectionText textCenter">
+            We are passionate about our work. Our designers and developers stay
+            ahead of the curve to provide our clients with end results beyond
+            their expectations and bringing their business to another height.
+          </div>
+          <button className="showcaseProjectBtn">View All Projects</button>
+          {/* <div>
           <div>
             <Slider {...settings}>
               <div>
@@ -340,84 +343,87 @@ function App() {
             </Slider>
           </div>
         </div> */}
-        <div>
-          <div className="row aboutProjectDiv">
-            <div className="col-8">
-              <div className="aboutProjectText">
-                Your Trusted Partner for Bespoke Web Solutions
+          <div>
+            <div className="row aboutProjectDiv">
+              <div className="col-xl-8 col-lg-8 col-md-8 col-12">
+                <div className="aboutProjectText">
+                  Your Trusted Partner for Bespoke Web Solutions
+                </div>
               </div>
-            </div>
-            <div className="col-4 getInbtnColWrraper">
-              <button className="getInTouchBtn">Get in Touch</button>
+              <div className="col-xl-4 col-lg-4 col-md-4 col-12 getInbtnColWrraper">
+                <button className="getInTouchBtn">Get in Touch</button>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section className="container voiceOfSatisfactionwrraper">
-        <div className="voiceofSatisfactionSection">
-          <div className="voiceofSatisfactionSubSection">
-            <div>
-              <div className="sectionHeader">Voices of Satisfaction</div>
+        <div data-aos="fade-up" data-aos-delay="2000">
+          <div className="voiceofSatisfactionSection">
+            <div className="voiceofSatisfactionSubSection">
+              <div>
+                <div className="sectionHeader">Voices of Satisfaction</div>
+              </div>
+              <img src="/voiceImage.png" />
             </div>
-            <img src="/voiceImage.png" />
           </div>
-        </div>
-        <div>
-          <div className="row mainReviewWrraper">
-            <div className="col-md-3 col-12">
-              <img src="/client1.png" alt="freelance" />
-              <div className="clientName">Jane Smith</div>
-              <div className="clientPosition">Co-founder & CEO</div>
-            </div>
-            <div className="col-md-9 col-12">
-              <div className="clientReviewWrraper">
-                <div>
-                  <img src="qoute.png" alt="qoute" />
-                </div>
-                <div className="clientReview">
-                  JDG has been working to keep our website seamlessly functional
-                  and aesthetically beautiful. They have been responsive to
-                  every step of the way and easy to reach for any request. I had
-                  so many options available that I could dream up anything that
-                  suits my needs. Happy with JDG!
+          <div>
+            <div className="row mainReviewWrraper">
+              <div className="col-md-3 col-12 ">
+                <img src="/client1.png" alt="freelance" />
+                <div className="clientName">Jane Smith</div>
+                <div className="clientPosition">Co-founder & CEO</div>
+              </div>
+              <div className="col-md-9 col-12 ">
+                <div className="clientReviewWrraper">
+                  <div>
+                    <img src="qoute.png" alt="qoute" />
+                  </div>
+                  <div className="clientReview">
+                    JDG has been working to keep our website seamlessly
+                    functional and aesthetically beautiful. They have been
+                    responsive to every step of the way and easy to reach for
+                    any request. I had so many options available that I could
+                    dream up anything that suits my needs. Happy with JDG!
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row mainReviewWrraper">
-            <div className="col-md-9 col-12">
-              <div className="clientReviewWrraper">
-                <div className="clientReview">
-                  I worked with JDG team on the redesign of my store. They
-                  brought the store to life, adding new navigation and
-                  functionality to my site. They have great communications
-                  skills, meet their deadlines on time and provide a fantastic
-                  visual UX/UI design to any product category. I intend to work
-                  with this team again and would highly recommend them.
+            <div className="row mainReviewWrraper">
+              <div className="col-md-9 col-12 firstOrder">
+                <div className="clientReviewWrraper">
+                  <div className="clientReview">
+                    I worked with JDG team on the redesign of my store. They
+                    brought the store to life, adding new navigation and
+                    functionality to my site. They have great communications
+                    skills, meet their deadlines on time and provide a fantastic
+                    visual UX/UI design to any product category. I intend to
+                    work with this team again and would highly recommend them.
+                  </div>
                 </div>
               </div>
+              <div className="col-md-3 col-12 secondOrder">
+                <img src="/client2.png" alt="freelance" />
+                <div className="clientName">David Anderson</div>
+                <div className="clientPosition">Marketing Manager</div>
+              </div>
             </div>
-            <div className="col-md-3 col-12">
-              <img src="/client2.png" alt="freelance" />
-              <div className="clientName">David Anderson</div>
-              <div className="clientPosition">Marketing Manager</div>
-            </div>
-          </div>
-          <div className="row mainReviewWrraper">
-            <div className="col-md-3 col-12">
-              <img src="/client3.png" alt="freelance" />
-              <div className="clientName">Sara Thompson</div>
-              <div className="clientPosition">Co-founder & CEO</div>
-            </div>
-            <div className="col-md-9 col-12">
-              <div className="clientReviewWrraper">
-                <div className="clientReview">
-                  The team at Just Digital Gurus was quick to respond, great
-                  about changing things when asked, and I love the way the site
-                  came out for my client! Highly recommend!!!
-                </div>
-                <div>
-                  <img src="qoute2.png" alt="qoute" />
+            <div className="row mainReviewWrraper">
+              <div className="col-md-3 col-12 ">
+                <img src="/client3.png" alt="freelance" />
+                <div className="clientName">Sara Thompson</div>
+                <div className="clientPosition">Co-founder & CEO</div>
+              </div>
+              <div className="col-md-9 col-12 ">
+                <div className="clientReviewWrraper">
+                  <div className="clientReview">
+                    The team at Just Digital Gurus was quick to respond, great
+                    about changing things when asked, and I love the way the
+                    site came out for my client! Highly recommend!!!
+                  </div>
+                  <div>
+                    <img src="qoute2.png" alt="qoute" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -425,15 +431,21 @@ function App() {
         </div>
       </section>
       <section className="serviceSection serviceBottom">
-        <div className="container">
+        <div className="container" data-aos="fade-up" data-aos-delay="2000">
           <div style={{ paddingTop: "100px" }}>
             <div className="serviceSectionHeader">Explore the JDG Blog</div>
           </div>
           <div className="row blogRowWrraper">
-            <div className="col-md-3 col">
-              <img src="/blogImage.png" alt="blogImage" />
+            <div className="col-xl-3 col-lg-3 col-md-3 col-12">
+              <div className="blogImageDiv">
+                <img
+                  src="/blogImage.png"
+                  alt="blogImage"
+                  className="blogImageStyle"
+                />
+              </div>
             </div>
-            <div className="col-md-9 col">
+            <div className="col-xl-9 col-lg-9 col-md-9 col-12">
               <div className="blogText">
                 Stay ahead with JDG’s captivating articles on technology trends,
                 web solutions and expert insights. Fuel creativity, thrive inh
@@ -441,7 +453,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="row gx-5 mb-5">
+          <div className="row gx-5 mb-5 blogDivWrraper">
             <div className="col-md-4 col-12">
               <img src="/blog1.png" alt="blog" className="blogImageStyle" />
 
@@ -469,7 +481,11 @@ function App() {
         </div>
       </section>
       <section className="container">
-        <div className="row joinTeamRowWrraper">
+        <div
+          className="row joinTeamRowWrraper"
+          data-aos="fade-up"
+          data-aos-delay="2000"
+        >
           <div className="col-md-8 col">
             <div className="joinTealTitle">
               <span>Magic</span> happens when we join forces!
@@ -493,7 +509,11 @@ function App() {
       </section>
       <section className="container">
         <div className="sectionHeader faqHeader">FAQ</div>
-        <div className="row faqCollapseWrraper">
+        <div
+          className="row faqCollapseWrraper"
+          data-aos="fade-up"
+          data-aos-delay="2000"
+        >
           <div className="col">
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item" id="accordianHeaderDiv">
@@ -516,9 +536,11 @@ function App() {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the first item's accordion body.
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
                   </div>
                 </div>
               </div>
@@ -542,10 +564,11 @@ function App() {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the second item's accordion body. Let's imagine this being
-                    filled with some actual content.
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
                   </div>
                 </div>
               </div>
@@ -569,13 +592,11 @@ function App() {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the third item's accordion body. Nothing more exciting
-                    happening here in terms of content, but just filling up the
-                    space to make it look, at least at first glance, a bit more
-                    representative of how this would look in a real-world
-                    application.
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
                   </div>
                 </div>
               </div>
@@ -603,9 +624,11 @@ function App() {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the first item's accordion body.
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
                   </div>
                 </div>
               </div>
@@ -630,10 +653,11 @@ function App() {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the second item's accordion body. Let's imagine this being
-                    filled with some actual content.
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
                   </div>
                 </div>
               </div>
@@ -657,13 +681,11 @@ function App() {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the third item's accordion body. Nothing more exciting
-                    happening here in terms of content, but just filling up the
-                    space to make it look, at least at first glance, a bit more
-                    representative of how this would look in a real-world
-                    application.
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
                   </div>
                 </div>
               </div>
@@ -673,7 +695,11 @@ function App() {
         </div>
       </section>
       <section className="container ">
-        <div className="formWrraperSection">
+        <div
+          className="formWrraperSection"
+          data-aos="fade-up"
+          data-aos-delay="2000"
+        >
           <div className="row ">
             <div className="col">
               <div>
@@ -765,9 +791,9 @@ function App() {
         </div>
       </section>
       <section className="serviceSection lastFooterSection">
-        <div className="container">
+        <div className="container" data-aos="fade-up" data-aos-delay="2000">
           <div className="row">
-            <div className="col-md-3 col-12">
+            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
               <div>
                 <div className="footerSectionTitle">ABOUT</div>
                 <div className="footerText">
@@ -776,7 +802,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-12">
+            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
               <div>
                 <div className="footerSectionTitle">SERVICES</div>
                 <div className="linkText">SEO Marketing</div>
@@ -786,7 +812,7 @@ function App() {
                 <div className="linkText">SEO Audit</div>
               </div>
             </div>
-            <div className="col-md-3 col-12">
+            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
               <div>
                 <div className="footerSectionTitle">COMMUNITY</div>
                 <div className="linkText">Our Product</div>
@@ -796,7 +822,7 @@ function App() {
                 <div className="linkText">What We Do?</div>
               </div>
             </div>
-            <div className="col-md-3 col-12">
+            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
               <div>
                 <div className="footerSectionTitle">QUICK LINKS</div>
                 <div className="linkText">Home</div>
@@ -808,7 +834,7 @@ function App() {
             </div>
           </div>
           <div className="row footerSecondRowWrraper">
-            <div className="col-md-4 col">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div>
                 <div className="footerSecondRowTitle">
                   Have an idea? Let’s Talk
@@ -817,17 +843,23 @@ function App() {
                 <div className="companyDetails">+91 8009865326</div>
               </div>
             </div>
-            <div className="col-md-4 col">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div>
                 <div className="footerSecondRowTitle">Career</div>
                 <div className="companyDetails">hr@justgurus.co</div>
                 <div className="companyDetails">+91 6355559016</div>
               </div>
             </div>
-            <div className="col-md-4 col">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div className="locationMainWrraper">
                 <div className="locationWrraper">
-                  <img src="/location.png" alt="location" />
+                  <div className="locationDiv">
+                    <img
+                      src="/location.png"
+                      alt="location"
+                      className="locationImage"
+                    />
+                  </div>
                   <div className="locationText">
                     501, The Arcade, Rajkot, India
                   </div>
